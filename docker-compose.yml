@@ -19,7 +19,7 @@ services:
       DB_HOST: mysql
       DB_PORT: 3306
       DB_DATABASE: laravel
-      DB_USERNAME: marcin
+      DB_USERNAME: MarcinAL
       DB_PASSWORD: User12345
 
   webserver:
@@ -45,7 +45,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: laravel
-      MYSQL_USER: marcin
+      MYSQL_USER: MarcinAL
       MYSQL_PASSWORD: User12345
     volumes:
       - ./db:/docker-entrypoint-initdb.d
@@ -61,7 +61,7 @@ services:
       - "8080:80"
     environment:
       PMA_HOST: mysql
-      PMA_USER: marcin
+      PMA_USER: MarcinAL
       PMA_PASSWORD: User12345
     depends_on:
       - mysql
