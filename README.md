@@ -1,14 +1,21 @@
 # Laravel Docker Setup
 
-A demonstration project integrating **Laravel**, **Docker**, **PHP**, and **MySQL**.
+A demonstration project integrating **Laravel**, **Docker**, **PHP**, **MySQL**, **Nginx**, **Composer**, **phpMyAdmin**
 
-**Author:** Marcin Lorek  
+**Author:** Marcin Aleksander Lorek(MarcinAL)
 **License:** Custom configuration released for free use while retaining the author’s rights.  
 **Components:**  
 - Laravel (MIT License)  
-- Docker (Apache 2.0 License)  
+- Docker (Apache 2.0 License)
 - PHP (PHP License)  
 - MySQL (GPLv2 License)
+- Nginx (BSD 2-Clause License)
+- Composer (MIT License)
+- phpMyAdmin (GPLv2 License)
+
+Note:
+All third-party components retain their original licenses.
+If any dependency or author has been unintentionally omitted, please contact the repository maintainer to ensure proper attribution.
 
 ---
 
