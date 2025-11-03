@@ -19,8 +19,9 @@ If any dependency or author has been unintentionally omitted, please contact the
 
 ---
 Read comments in docker-compose.yml if you do not know how to execute container.
+Gitkeep files may prevent properly laravel working.
+After docker execute make steps in post-setup.txt
 ---
-
 ```text
 
 Project Structure
@@ -40,3 +41,4 @@ laravel/
 └── php/                     # PHP container setup
     ├── Dockerfile
     └── php.ini
+
