@@ -14,8 +14,8 @@
 #    ├── Dockerfile
 #    └── php.ini
 # Only for development: fix container directory permissions
-# sudo chmod 777 -R ./laravel
-# In container directory (laravel) run console and execute commands:
+# sudo chmod 777 -R ./LaravelContainer
+# In container directory (LaravelContainer) run console and execute commands:
 # get container components: docker compose pull
 # start container: docker compose up
 # if you don't want to see logs: docker compose up -d
