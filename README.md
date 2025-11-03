@@ -16,6 +16,7 @@ A demonstration project integrating **Laravel**, **Docker**, **PHP**, **MySQL**,
 Note:
 All third-party components retain their original licenses.
 If any dependency or author has been unintentionally omitted, please contact the repository maintainer to ensure proper attribution.
+
 Special thanks to the ChatGPT team for assistance in container setup guidance.
 
 ---
