@@ -1,3 +1,19 @@
+#laravel/
+#├── db/                     # Initialization scripts (if any)
+#│
+#├── docker-compose.yml       # Main Docker Compose configuration
+#│
+#├── laravel-app/             # Laravel application source code
+#│
+#├── mysql-data/              # Persistent MySQL database data
+#│
+#├── nginx/                   # Nginx configuration files
+#│   └── conf.d/
+#│
+#└── php/                     # PHP container setup
+#    ├── Dockerfile
+#    └── php.ini
+
 services:
   app:
     build:
