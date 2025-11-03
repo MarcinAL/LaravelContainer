@@ -13,7 +13,8 @@
 #└── php/                     # PHP container setup
 #    ├── Dockerfile
 #    └── php.ini
-
+# Only for development: fix container directory permissions
+# sudo chmod 777 -R ./laravel
 services:
   app:
     build:
