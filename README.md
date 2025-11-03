@@ -20,9 +20,10 @@ If any dependency or author has been unintentionally omitted, please contact the
 Special thanks to the ChatGPT team for assistance in container setup guidance.
 
 ---
-Read comments in docker-compose.yml if you do not know how to execute container.
-Gitkeep files may prevent properly laravel working.
-After docker execute make steps in post-setup.txt
+Read comments in docker-compose.yml if you do not know how to execute container.  
+Gitkeep files may prevent properly laravel working.  
+After docker execute make steps in post-setup.txt  
+If you would delete installed container: sudo rm -rf LaravelContainer  
 ---
 
 ```text
